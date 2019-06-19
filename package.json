@@ -1,0 +1,30 @@
+{
+  "name": "punchstarter-pledges",
+  "version": "1.0.0",
+  "description": "this repo will be used for a systems design capstone project.  I will compare the benefits of cassandra and postgres for developing a scalable microservice of pledges for a crowdfunding website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrh11/punchstarter-pledges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrh11/punchstarter-pledges/issues"
+  },
+  "homepage": "https://github.com/mrh11/punchstarter-pledges#readme",
+  "dependencies": {
+    "async": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "cassandra-driver": "^4.1.0",
+    "csv-parse": "^4.4.3",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "fast-csv": "^3.0.1",
+    "fs": "0.0.1-security",
+    "stream-transform": "^2.0.1"
+  }
+}
